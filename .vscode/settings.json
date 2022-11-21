@@ -1,0 +1,18 @@
+{
+	"prettier.enable": false,
+	"prettier.enableDebugLogs": true,
+	"prettier.insertPragma": false,
+	"prettier.jsxBracketSameLine": false,
+	"prettier.jsxSingleQuote": false,
+	"prettier.requireConfig": false,
+	"prettier.requirePragma": false,
+	"prettier.resolveGlobalModules": false,
+	"prettier.printWidth": 100,
+	"prettier.singleQuote": false,
+	"prettier.vueIndentScriptAndStyle": false,
+	"prettier.withNodeModules": true,
+	"prettier.useTabs": true,
+	"prettier.configPath": "",
+	"prettier.useEditorConfig": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
+}
