@@ -1,411 +1,421 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Template 1</title>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<link rel="stylesheet" href="./css/style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css" />
-		<script src="script.js"></script>
-	</head>
-	<body>
-		<div class="container">
-			<!-- Header section -->
-			<header>
-				<img src="./images/logo.png" />
-				<a href="#" class="submenu"><i class="fa-solid fa-bars" onclick="dropmenu()"></i></a>
-				<nav>
-					<ul class="after" id="menu">
-						<li class="dropdown">
-							<a href="#">Furniture</a>
-							<div class="dropmenu">
-								<ul>
-									<li><a href="#">Tables</a></li>
-									<li><a href="#">Study Table</a></li>
-									<li><a href="#">Coffee Table</a></li>
-									<li><a href="#">Stools</a></li>
-									<li><a href="#">Writing Desks</a></li>
-								</ul>
-								<ul>
-									<li><a href="#">Dining</a></li>
-									<li><a href="#">Dining Chairs</a></li>
-									<li><a href="#">Bar Stools</a></li>
-									<li><a href="#">Benches</a></li>
-									<li><a href="#">Dining Table</a></li>
-								</ul>
-								<ul>
-									<li><a href="#">Sofas</a></li>
-									<li><a href="#">Armchairs</a></li>
-									<li><a href="#">Day Beds </a></li>
-									<li><a href="#">Poufs</a></li>
-									<li><a href="#">Lounge Chairs</a></li>
-								</ul>
-							</div>
-						</li>
-						<li><a href="#">Armoires</a></li>
-						<li><a href="#">Study Table</a></li>
-						<li><a href="#">Plastic Chair</a></li>
-						<li><a href="#">Wardrobes</a></li>
-						<li><a href="#">More</a></li>
-					</ul>
-				</nav>
-				<div class="icons">
-					<ul>
-						<li>
-							<a><i class="fa fa-search fa-lg"></i></a>
-						</li>
-						<li>
-							<a><i class="fa fa-user fa-lg"></i></a>
-						</li>
-						<li>
-							<a><i class="fa-solid fa-cart-arrow-down fa-xl"></i> Your Cart</a>
-						</li>
-					</ul>
-				</div>
-			</header>
+  <head>
+    <title>Template 1</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header section -->
+      <header>
+        <img src="./images/logo.png" />
+        <a href="#" class="submenu"
+          ><i class="fa-solid fa-bars" onclick="dropmenu()"></i
+        ></a>
+        <nav id="menu">
+          <ul class="after">
+            <li class="dropdown">
+              <a href="#">Furniture</a>
+              <div class="dropmenu">
+                <ul>
+                  <li><a href="#">Tables</a></li>
+                  <li><a href="#">Study Table</a></li>
+                  <li><a href="#">Coffee Table</a></li>
+                  <li><a href="#">Stools</a></li>
+                  <li><a href="#">Writing Desks</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Dining</a></li>
+                  <li><a href="#">Dining Chairs</a></li>
+                  <li><a href="#">Bar Stools</a></li>
+                  <li><a href="#">Benches</a></li>
+                  <li><a href="#">Dining Table</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Sofas</a></li>
+                  <li><a href="#">Armchairs</a></li>
+                  <li><a href="#">Day Beds </a></li>
+                  <li><a href="#">Poufs</a></li>
+                  <li><a href="#">Lounge Chairs</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Armoires</a></li>
+            <li><a href="#">Study Table</a></li>
+            <li><a href="#">Plastic Chair</a></li>
+            <li><a href="#">Wardrobes</a></li>
+            <li><a href="#">More</a></li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <ul>
+            <li>
+              <a><i class="fa fa-search fa-lg"></i></a>
+            </li>
+            <li>
+              <a><i class="fa fa-user fa-lg"></i></a>
+            </li>
+            <li>
+              <a><i class="fa-solid fa-cart-arrow-down fa-xl"></i> Your Cart</a>
+            </li>
+          </ul>
+        </div>
+      </header>
 
-			<!-- slider section -->
-			<div class="slider">
-				<img src="./images/main-banner-1-1600x700.jpg" />
-			</div>
-			<!--category section -->
-			<section>
-				<div class="section-title">
-					<h2 class="text-center">Special Category</h2>
-					<span class="text-center title-line"></span>
-				</div>
-				<div class="category-items">
-					<!--category items -->
-					<div class="category-item">
-						<img src="images/category-banner1.jpg" />
-						<h4>Most popular</h4>
-						<p>Classic Chair Collection</p>
-						<i class="fa-solid fa-angles-right fa-sm"></i>
-					</div>
-					<div class="category-item">
-						<img src="images/category-banner2.jpg" />
-						<h4>Most popular</h4>
-						<p>Classic Chair Collection</p>
-						<i class="fa-solid fa-angles-right fa-sm"></i>
-					</div>
-					<div class="category-item">
-						<img src="images/category-banner3.jpg" />
-						<h4>Most popular</h4>
-						<p>Classic Chair Collection</p>
-						<i class="fa-solid fa-angles-right fa-sm"></i>
-					</div>
-					<div class="category-item">
-						<img src="images/category-banner4.jpg" />
-						<h4>Most popular</h4>
-						<p>Classic Chair Collection</p>
-						<i class="fa-solid fa-angles-right fa-sm"></i>
-					</div>
-				</div>
-				<div class="discount">
-					<!--discount items -->
-					<div class="brief-desc">
-						<i class="fa-solid fa-quote-left fa-2xl"></i>
-						<h4>Penelope Astrid</h4>
-						<h5>(Marketing)</h5>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio
-							odio aperiam voluptates? Repudiandae enim quis eaque, voluptatibus dignissimos
-							aspernatur totam dolorem recusandae ex architecto dolore debitis asperiores.
-						</p>
-					</div>
-					<div class="dicount-blog">
-						<div class="discount-img">
-							<img src="images/cms-banner-1.jpg" />
-							<div class="discount-percent">
-								<p>30% Discount</p>
-								<h3>Designing Interior</h3>
-							</div>
-						</div>
-						<div class="discount-img">
-							<img src="images/cms-banner-2.jpg" />
-							<div class="discount-percent">
-								<p>30% Discount</p>
-								<h3>Designing Interior</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--features and benefits  -->
-				<div class="features">
-					<div class="features-content">
-						<div class="features-icon icon-1"></div>
-						<div class="features-desc">
-							<p>Free Delivery</p>
-							<span>Free Shipping On All Order</span>
-						</div>
-					</div>
-					<div class="features-content">
-						<div class="features-icon icon-2"></div>
-						<div class="features-desc">
-							<p>Money Return</p>
-							<span>Back Guarantee in 7 days</span>
-						</div>
-					</div>
-					<div class="features-content">
-						<div class="features-icon icon-3"></div>
-						<div class="features-desc">
-							<p>Member Discount</p>
-							<span>On every order over $130.00</span>
-						</div>
-					</div>
-					<div class="features-content">
-						<div class="features-icon icon-4"></div>
-						<div class="features-desc">
-							<p>Online Support</p>
-							<span>Support 24 hours a day</span>
-						</div>
-					</div>
-					<div class="features-content">
-						<div class="features-icon icon-5"></div>
-						<div class="features-desc">
-							<p>Return Policy</p>
-							<span>Send within 30 days</span>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!--category section end -->
+      <!-- slider section -->
+      <div class="slider">
+        <img src="./images/main-banner-1-1600x700.jpg" />
+      </div>
+      <!--category section -->
+      <section>
+        <div class="section-title">
+          <h2 class="text-center">Special Category</h2>
+          <span class="text-center title-line"></span>
+        </div>
+        <div class="category-items">
+          <!--category items -->
+          <div class="category-item">
+            <img src="images/category-banner1.jpg" />
+            <h4>Most popular</h4>
+            <p>Classic Chair Collection</p>
+            <i class="fa-solid fa-angles-right fa-sm"></i>
+          </div>
+          <div class="category-item">
+            <img src="images/category-banner2.jpg" />
+            <h4>Most popular</h4>
+            <p>Classic Chair Collection</p>
+            <i class="fa-solid fa-angles-right fa-sm"></i>
+          </div>
+          <div class="category-item">
+            <img src="images/category-banner3.jpg" />
+            <h4>Most popular</h4>
+            <p>Classic Chair Collection</p>
+            <i class="fa-solid fa-angles-right fa-sm"></i>
+          </div>
+          <div class="category-item">
+            <img src="images/category-banner4.jpg" />
+            <h4>Most popular</h4>
+            <p>Classic Chair Collection</p>
+            <i class="fa-solid fa-angles-right fa-sm"></i>
+          </div>
+        </div>
+        <div class="discount">
+          <!--discount items -->
+          <div class="brief-desc">
+            <i class="fa-solid fa-quote-left fa-2xl"></i>
+            <h4>Penelope Astrid</h4>
+            <h5>(Marketing)</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem distinctio odio aperiam voluptates? Repudiandae
+              enim quis eaque, voluptatibus dignissimos aspernatur totam dolorem
+              recusandae ex architecto dolore debitis asperiores.
+            </p>
+          </div>
+          <div class="dicount-blog">
+            <div class="discount-img">
+              <img src="images/cms-banner-1.jpg" />
+              <div class="discount-percent">
+                <p>30% Discount</p>
+                <h3>Designing Interior</h3>
+              </div>
+            </div>
+            <div class="discount-img">
+              <img src="images/cms-banner-2.jpg" />
+              <div class="discount-percent">
+                <p>30% Discount</p>
+                <h3>Designing Interior</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--features and benefits  -->
+        <div class="features">
+          <div class="features-content">
+            <div class="features-icon icon-1"></div>
+            <div class="features-desc">
+              <p>Free Delivery</p>
+              <span>Free Shipping On All Order</span>
+            </div>
+          </div>
+          <div class="features-content">
+            <div class="features-icon icon-2"></div>
+            <div class="features-desc">
+              <p>Money Return</p>
+              <span>Back Guarantee in 7 days</span>
+            </div>
+          </div>
+          <div class="features-content">
+            <div class="features-icon icon-3"></div>
+            <div class="features-desc">
+              <p>Member Discount</p>
+              <span>On every order over $130.00</span>
+            </div>
+          </div>
+          <div class="features-content">
+            <div class="features-icon icon-4"></div>
+            <div class="features-desc">
+              <p>Online Support</p>
+              <span>Support 24 hours a day</span>
+            </div>
+          </div>
+          <div class="features-content">
+            <div class="features-icon icon-5"></div>
+            <div class="features-desc">
+              <p>Return Policy</p>
+              <span>Send within 30 days</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--category section end -->
 
-			<!--featured-products section -->
-			<section>
-				<div class="section-title">
-					<h2 class="text-center">Featured Products</h2>
-					<span class="text-center title-line"></span>
-				</div>
+      <!--featured-products section -->
+      <section>
+        <div class="section-title">
+          <h2 class="text-center">Featured Products</h2>
+          <span class="text-center title-line"></span>
+        </div>
 
-				<div class="products-nav">
-					<ul>
-						<li><a href="#">Wooden Chair</a></li>
-						<li><a href="#">Plastic Chair</a></li>
-						<li><a href="#">Study Table </a></li>
-						<li><a href="#">Armoires</a></li>
-					</ul>
-				</div>
+        <div class="products-nav">
+          <ul>
+            <li><a href="#">Wooden Chair</a></li>
+            <li><a href="#">Plastic Chair</a></li>
+            <li><a href="#">Study Table </a></li>
+            <li><a href="#">Armoires</a></li>
+          </ul>
+        </div>
 
-				<div class="products">
-					<div class="product-item">
-						<ul>
-							<li><i class="fa-regular fa-heart"></i></li>
-							<li><i class="fa-regular fa-eye"></i></li>
-							<li><i class="fa-solid fa-bars"></i></li>
-							<li><i class="fa-solid fa-cart-arrow-down"></i></li>
-						</ul>
-						<div class="product-img">
-							<img src="./images/chair1.jpg" />
-							<div class="sub-img">
-								<img src="./images/chair4.jpg" />
-							</div>
-						</div>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm rating"></i>
-						<i class="fa-solid fa-star fa-sm rating"></i>
-						<h4>Aliquam Quaerat</h4>
-						<span class="price">$108.80</span>
-						<span class="sale">$120.50</span>
-					</div>
-					<div class="product-item">
-						<ul>
-							<li><i class="fa-regular fa-heart"></i></li>
-							<li><i class="fa-regular fa-eye"></i></li>
-							<li><i class="fa-solid fa-bars"></i></li>
-							<li><i class="fa-solid fa-cart-arrow-down"></i></li>
-						</ul>
-						<div class="product-img">
-							<img src="./images/chair2.jpg" />
-							<div class="sub-img">
-								<img src="./images/chair5.jpg" />
-							</div>
-						</div>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm rating"></i>
-						<h4>Aliquam Quaerat</h4>
-						<span>$108.80</span>
-						<span class="sale">$120.50</span>
-					</div>
-					<div class="product-item">
-						<ul>
-							<li><i class="fa-regular fa-heart"></i></li>
-							<li><i class="fa-regular fa-eye"></i></li>
-							<li><i class="fa-solid fa-bars"></i></li>
-							<li><i class="fa-solid fa-cart-arrow-down"></i></li>
-						</ul>
-						<div class="product-img">
-							<img src="./images/chair3.jpg" />
-							<div class="sub-img">
-								<img src="./images/chair6.jpg" />
-							</div>
-						</div>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<h4>Aliquam Quaerat</h4>
-						<span>$108.80</span>
-						<span class="sale">$120.50</span>
-					</div>
-					<div class="product-item">
-						<ul>
-							<li><i class="fa-regular fa-heart"></i></li>
-							<li><i class="fa-regular fa-eye"></i></li>
-							<li><i class="fa-solid fa-bars"></i></li>
-							<li><i class="fa-solid fa-cart-arrow-down"></i></li>
-						</ul>
-						<div class="product-img">
-							<img src="./images/chair4.jpg" />
-							<div class="sub-img">
-								<img src="./images/chair1.jpg" />
-							</div>
-						</div>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm rating"></i>
-						<i class="fa-solid fa-star fa-sm rating"></i>
-						<h4>Aliquam Quaerat</h4>
-						<span>$108.80</span>
-						<span class="sale">$120.50</span>
-					</div>
-					<div class="product-item">
-						<ul>
-							<li><i class="fa-regular fa-heart"></i></li>
-							<li><i class="fa-regular fa-eye"></i></li>
-							<li><i class="fa-solid fa-bars"></i></li>
-							<li><i class="fa-solid fa-cart-arrow-down"></i></li>
-						</ul>
-						<div class="product-img">
-							<img src="./images/chair5.jpg" />
-							<div class="sub-img">
-								<img src="./images/chair2.jpg" />
-							</div>
-						</div>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm rating"></i>
-						<h4>Aliquam Quaerat</h4>
-						<span>$108.80</span>
-						<span class="sale">$120.50</span>
-					</div>
-					<div class="product-item">
-						<ul>
-							<li><i class="fa-regular fa-heart"></i></li>
-							<li><i class="fa-regular fa-eye"></i></li>
-							<li><i class="fa-solid fa-bars"></i></li>
-							<li><i class="fa-solid fa-cart-arrow-down"></i></li>
-						</ul>
-						<div class="product-img">
-							<img src="./images/chair6.jpg" />
-							<div class="sub-img">
-								<img src="./images/chair3.jpg" />
-							</div>
-						</div>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm"></i>
-						<i class="fa-solid fa-star fa-sm rating"></i>
-						<i class="fa-solid fa-star fa-sm rating"></i>
-						<i class="fa-solid fa-star fa-sm rating"></i>
-						<h4>Aliquam Quaerat</h4>
-						<span>$90.50</span>
-						<span class="sale">$140.50</span>
-					</div>
-				</div>
-				<div class="our-brand">
-					<div class="our-brand-blog"><img src="images/cms-banner-1.jpg" alt="" /></div>
-					<div class="our-brand-desc">
-						<h4>Necessitatibus Saepe Eveniet</h4>
-						<p>
-							The standard Lorem Ipsum passage, used since the 1500s"Lorem ipsum dolor sit amet,
-							consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-							ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur ...
-						</p>
-						<div class="bollts b1"></div>
-						<div class="bollts b2"></div>
-						<div class="bollts"></div>
-					</div>
-				</div>
+        <div class="products">
+          <div class="product-item">
+            <ul>
+              <li><i class="fa-regular fa-heart"></i></li>
+              <li><i class="fa-regular fa-eye"></i></li>
+              <li><i class="fa-solid fa-bars"></i></li>
+              <li><i class="fa-solid fa-cart-arrow-down"></i></li>
+            </ul>
+            <div class="product-img">
+              <img src="./images/chair1.jpg" />
+              <div class="sub-img">
+                <img src="./images/chair4.jpg" />
+              </div>
+            </div>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm rating"></i>
+            <i class="fa-solid fa-star fa-sm rating"></i>
+            <h4>Aliquam Quaerat</h4>
+            <span class="price">$108.80</span>
+            <span class="sale">$120.50</span>
+          </div>
+          <div class="product-item">
+            <ul>
+              <li><i class="fa-regular fa-heart"></i></li>
+              <li><i class="fa-regular fa-eye"></i></li>
+              <li><i class="fa-solid fa-bars"></i></li>
+              <li><i class="fa-solid fa-cart-arrow-down"></i></li>
+            </ul>
+            <div class="product-img">
+              <img src="./images/chair2.jpg" />
+              <div class="sub-img">
+                <img src="./images/chair5.jpg" />
+              </div>
+            </div>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm rating"></i>
+            <h4>Aliquam Quaerat</h4>
+            <span>$108.80</span>
+            <span class="sale">$120.50</span>
+          </div>
+          <div class="product-item">
+            <ul>
+              <li><i class="fa-regular fa-heart"></i></li>
+              <li><i class="fa-regular fa-eye"></i></li>
+              <li><i class="fa-solid fa-bars"></i></li>
+              <li><i class="fa-solid fa-cart-arrow-down"></i></li>
+            </ul>
+            <div class="product-img">
+              <img src="./images/chair3.jpg" />
+              <div class="sub-img">
+                <img src="./images/chair6.jpg" />
+              </div>
+            </div>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <h4>Aliquam Quaerat</h4>
+            <span>$108.80</span>
+            <span class="sale">$120.50</span>
+          </div>
+          <div class="product-item">
+            <ul>
+              <li><i class="fa-regular fa-heart"></i></li>
+              <li><i class="fa-regular fa-eye"></i></li>
+              <li><i class="fa-solid fa-bars"></i></li>
+              <li><i class="fa-solid fa-cart-arrow-down"></i></li>
+            </ul>
+            <div class="product-img">
+              <img src="./images/chair4.jpg" />
+              <div class="sub-img">
+                <img src="./images/chair1.jpg" />
+              </div>
+            </div>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm rating"></i>
+            <i class="fa-solid fa-star fa-sm rating"></i>
+            <h4>Aliquam Quaerat</h4>
+            <span>$108.80</span>
+            <span class="sale">$120.50</span>
+          </div>
+          <div class="product-item">
+            <ul>
+              <li><i class="fa-regular fa-heart"></i></li>
+              <li><i class="fa-regular fa-eye"></i></li>
+              <li><i class="fa-solid fa-bars"></i></li>
+              <li><i class="fa-solid fa-cart-arrow-down"></i></li>
+            </ul>
+            <div class="product-img">
+              <img src="./images/chair5.jpg" />
+              <div class="sub-img">
+                <img src="./images/chair2.jpg" />
+              </div>
+            </div>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm rating"></i>
+            <h4>Aliquam Quaerat</h4>
+            <span>$108.80</span>
+            <span class="sale">$120.50</span>
+          </div>
+          <div class="product-item">
+            <ul>
+              <li><i class="fa-regular fa-heart"></i></li>
+              <li><i class="fa-regular fa-eye"></i></li>
+              <li><i class="fa-solid fa-bars"></i></li>
+              <li><i class="fa-solid fa-cart-arrow-down"></i></li>
+            </ul>
+            <div class="product-img">
+              <img src="./images/chair6.jpg" />
+              <div class="sub-img">
+                <img src="./images/chair3.jpg" />
+              </div>
+            </div>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm"></i>
+            <i class="fa-solid fa-star fa-sm rating"></i>
+            <i class="fa-solid fa-star fa-sm rating"></i>
+            <i class="fa-solid fa-star fa-sm rating"></i>
+            <h4>Aliquam Quaerat</h4>
+            <span>$90.50</span>
+            <span class="sale">$140.50</span>
+          </div>
+        </div>
+        <div class="our-brand">
+          <div class="our-brand-blog">
+            <img src="images/cms-banner-1.jpg" alt="" />
+          </div>
+          <div class="our-brand-desc">
+            <h4>Necessitatibus Saepe Eveniet</h4>
+            <p>
+              The standard Lorem Ipsum passage, used since the 1500s"Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur ...
+            </p>
+            <div class="bollts b1"></div>
+            <div class="bollts b2"></div>
+            <div class="bollts"></div>
+          </div>
+        </div>
 
-				<!--clients section -->
+        <!--clients section -->
 
-				<div class="clients">
-					<div><img src="images/client1.png" /></div>
-					<div><img src="images/client2.png" /></div>
-					<div><img src="images/client3.png" /></div>
-					<div><img src="images/client4.png" /></div>
-					<div><img src="images/client5.png" /></div>
-					<div><img src="images/client6.png" /></div>
-				</div>
-			</section>
-		</div>
+        <div class="clients">
+          <div><img src="images/client1.png" /></div>
+          <div><img src="images/client2.png" /></div>
+          <div><img src="images/client3.png" /></div>
+          <div><img src="images/client4.png" /></div>
+          <div><img src="images/client5.png" /></div>
+          <div><img src="images/client6.png" /></div>
+        </div>
+      </section>
+    </div>
 
-		<!--footer section -->
+    <!--footer section -->
 
-		<footer>
-			<div class="footer">
-				<div class="about-us">
-					<img src="images/footer-logo.png" />
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. LoremIpsum
-						has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply
-						dummy.
-					</p>
-					<div class="download">
-						<img src="images/cms-footer-1.png" />
-						<img src="images/cms-footer-2.png" />
-					</div>
-				</div>
-				<div class="information">
-					<ul>
-						<h3><a href="#">Information</a></h3>
-						<li><a href="#">About Us </a></li>
-						<li><a href="#">Delivery Information</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#"> Terms & Conditions</a></li>
-						<li><a href="#"> Site Map</a></li>
-					</ul>
-				</div>
-				<div class="information">
-					<ul>
-						<h3><a href="#">My Account</a></h3>
-						<li><a href="#">My Account</a></li>
-						<li><a href="#">Order History</a></li>
-						<li><a href="#">Wish List</a></li>
-						<li><a href="#">Newsletter</a></li>
-						<li><a href="#">Returns</a></li>
-					</ul>
-				</div>
-				<div class="subscribe">
-					<h3><a href="#">Subscribe Now</a></h3>
-					<div class="email">
-						<input type="email" placeholder="Enter your Email Address" />
-						<i class="fa-solid fa-paper-plane"></i>
-					</div>
-					<div class="social-media">
-						<i class="fa-brands fa-facebook-f"></i>
-						<i class="fa-brands fa-twitter"></i>
-						<i class="fa-brands fa-youtube"></i>
-						<i class="fa-brands fa-google-plus-g"></i>
-						<i class="fa-brands fa-instagram"></i>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</body>
+    <footer>
+      <div class="footer">
+        <div class="about-us">
+          <img src="images/footer-logo.png" />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. LoremIpsum has been the industry's standard dummy text
+            ever since the 1500s, Lorem Ipsum is simply dummy.
+          </p>
+          <div class="download">
+            <img src="images/cms-footer-1.png" />
+            <img src="images/cms-footer-2.png" />
+          </div>
+        </div>
+        <div class="information">
+          <ul>
+            <h3><a href="#">Information</a></h3>
+            <li><a href="#">About Us </a></li>
+            <li><a href="#">Delivery Information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#"> Terms & Conditions</a></li>
+            <li><a href="#"> Site Map</a></li>
+          </ul>
+        </div>
+        <div class="information">
+          <ul>
+            <h3><a href="#">My Account</a></h3>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="#">Wish List</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="subscribe">
+          <h3><a href="#">Subscribe Now</a></h3>
+          <div class="email">
+            <input type="email" placeholder="Enter your Email Address" />
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+          <div class="social-media">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
